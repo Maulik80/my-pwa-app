@@ -1,0 +1,41 @@
+export const theme = {
+  colors: {
+    primary: {
+      50: '#eff6ff',
+      100: '#dbeafe',
+      200: '#bfdbfe',
+      300: '#93c5fd',
+      400: '#60a5fa',
+      500: '#3b82f6',
+      600: '#2563eb',
+      700: '#1d4ed8',
+      800: '#1e40af',
+      900: '#1e3a8a',
+    },
+    success: '#22c55e',
+    warning: '#f59e0b',
+    error: '#ef4444',
+  },
+  spacing: {
+    xs: '4px',
+    sm: '8px',
+    md: '12px',
+    lg: '16px',
+    xl: '24px',
+    '2xl': '32px',
+  },
+  borderRadius: {
+    button: '8px',
+    card: '12px',
+    modal: '16px',
+    input: '8px',
+  },
+  typography: {
+    h1: { mobile: '24px', tablet: '32px', weight: 'bold' },
+    h2: { mobile: '20px', tablet: '28px', weight: 'bold' },
+    h3: { mobile: '18px', tablet: '24px', weight: 'semibold' },
+    body: { mobile: '14px', tablet: '16px', weight: 'regular' },
+    small: { mobile: '12px', tablet: '14px', weight: 'regular' },
+    caption: { mobile: '10px', tablet: '12px', weight: 'medium' },
+  },
+};
